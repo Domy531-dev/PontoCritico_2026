@@ -1,34 +1,93 @@
-# Flutter
+# =========================
+# Flutter / Dart
+# =========================
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
+.pub-cache/
 .pub/
 build/
 
+# Generated files
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.idea/
+.vscode/
+.metadata
+
 # Android
-android/.gradle
+android/.gradle/
 android/app/debug
 android/app/profile
 android/app/release
 
 # iOS
-ios/Pods
-ios/.symlinks
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
 
-# VSCode
-.vscode/
+# macOS
+macos/Pods/
+macos/Runner.xcworkspace/
 
-# Python
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# =========================
+# Python / FastAPI
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
 .venv/
 env/
+ENV/
+
+# Python build
+dist/
+build/
+*.egg-info/
 
 # FastAPI
+*.sqlite3
 *.db
 
-# Logs
-*.log
+# Environment variables
+.env
+.env.*
+
+# =========================
+# Git
+# =========================
+*.orig
+
+# =========================
+# VSCode / IDE
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# Misc
+# =========================
+coverage/
+node_modules/
+
